@@ -1,15 +1,26 @@
 
 
 body {
-	background-image: linear-gradient(to bottom right, #231144 0%, #050505 100%);
+	background-image: linear-gradient(to bottom, #727272 0%, #474747,  #525252 100%);
 	height: 100%
 
 }
 
-
+p{
+	
+	background: -webkit-linear-gradient(#f3b2ff, #d6deff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 32px;
+	padding-top: 5px;
+	
+}
 
 .navbar {
-  background-color: #333;
+ 
   position: sticky; 
   border: 2px solid gray;
   border-radius: 5px;
@@ -27,16 +38,36 @@ body {
 
 
 .navbar a:hover {
-  background: #ddd;
+  
+  background-image: linear-gradient(to bottom right, #ffaaf0 0%, #fffcba 100%);
   color: black;
-}
-
-
-.main {
-  margin-top: 30px; 
 }
 
 a{
 	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
 }
+
+h1{
+	background: -webkit-linear-gradient(#f3b2ff, #d6deff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder; 
+	font-family: 'Inconsolata', monospace;
+	  border-bottom: 2px solid gray;
+  border-radius: 5px;
+  
+	
+}
+
+h3{
+	margin-top: 20%;
+	background: -webkit-linear-gradient(#d6deff, #c6ffb2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder; 
+	font-family: 'Inconsolata', monospace;
+	float: bottom;
+	
+}
+
